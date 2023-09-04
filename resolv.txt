@@ -1,0 +1,2 @@
+CGO_ENABLED=1 GOARCH=arm GOARM=6 CGO_CFLAGS="-I/path/to/installed/libs/include" CGO_LDFLAGS="-L/path/to/installed/libs/lib" go build -o rPiTurntable main_turntable.go
+
